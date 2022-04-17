@@ -19,10 +19,10 @@ const Photos = () => {
   ];
   return (
     <div id="experts" className="container">
-      <h2 className="text-primary text-center mt-5">Bridal Shoot</h2>
+      <h1 className="text-center text-danger fw-bolder mt-4">Bridal Shoot</h1>
       <div className="row">
         {photos.map((photo) => (
-          <Photo key={photo.id} expert={photo}></Photo>
+          <Photo key={photo.id} photo={photo}></Photo>
         ))}
       </div>
     </div>
