@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, useParams } from "react-router-dom";
-
+import Checkout from "../Checkout/Checkout";
 const ServiceDetail = () => {
   const { serviceId } = useParams();
   return (
